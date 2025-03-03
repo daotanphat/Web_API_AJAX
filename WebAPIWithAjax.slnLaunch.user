@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ReservationAPI\\ReservationAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ReservationWeb\\ReservationWeb.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
