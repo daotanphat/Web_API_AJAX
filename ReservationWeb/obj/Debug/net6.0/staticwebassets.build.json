@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "23sP32To42V0BdqYRaLhHg/04pFDQGv2cTyNT8qz+SU=",
+  "Hash": "GmspAlTLl+uGc2WDrGEib8r42KLnsaNhK6JAwK24HK8=",
   "Source": "ReservationWeb",
   "BasePath": "_content/ReservationWeb",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\FPT University\\Semester 8\\PRN231\\Class\\WebAPIWithAjax\\ReservationAPI\\ReservationAPI.csproj",
+      "Version": 2,
+      "Source": "ReservationAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "ReservationWeb\\wwwroot",

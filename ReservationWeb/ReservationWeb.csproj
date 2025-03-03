@@ -10,4 +10,8 @@
     <Folder Include="wwwroot\icon\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ReservationAPI\ReservationAPI.csproj" />
+  </ItemGroup>
+
 </Project>
